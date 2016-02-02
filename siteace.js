@@ -49,6 +49,7 @@ if (Meteor.isClient) {
 Template.detailbody.events({
 	"click .js-comment-submit":function(event){
 		console.log("Comment ready to log in siteace.js")
+		Comments.insert({'Com':'Sunny'})
 	}
 });
 
